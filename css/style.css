@@ -65,6 +65,10 @@ main{
   font-size: 10px;
   border-radius: 5px;
   padding: 3px 10px;
+  /* 
+  cursor: pointer;
+  border: none;
+       */
 }
 
 #task{
@@ -77,18 +81,23 @@ main{
   color: #D4D8DC;
 }
 
+/*
+li{
+  list-style: none
+} 
+ */
+
 /* Layout delle info */
 h2{
   padding-top: 20px;
 }
 
-h4{
-  padding: 5px 0px;
-}
-
-
 h2::before{
   content: '\23F7';
+}
+
+h4{
+  padding: 5px 0px;
 }
 
 /* Layout dei simboli */
