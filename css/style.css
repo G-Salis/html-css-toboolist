@@ -88,15 +88,17 @@ li{
  */
 
 /* Layout delle info */
-h2{
+.list_title{
+  font-size: 20px;
+  font-weight: bold;
   padding-top: 20px;
 }
 
-h2::before{
+.list_title::before{
   content: '\23F7';
 }
 
-h4{
+.list_content{
   padding: 5px 0px;
 }
 
